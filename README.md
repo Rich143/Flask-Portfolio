@@ -55,5 +55,5 @@ for other operating systems, but this repo has been tested on OSX.
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-[1]: http://jameschang.io/index.html
+[1]: http://www.jameschang.io/
 [2]: http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html
