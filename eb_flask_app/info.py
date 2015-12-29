@@ -67,7 +67,7 @@ projects = [
         "link" : "https://corner.squareup.com/2015/11/fastclone.html",
         "icon_class" : "fa fa-github-alt icon-md icon-color-dark",
         "name" : "git-fastclone",
-        "description" : "A Ruby gem that performs lightning-fast checkouts of git repos."
+        "description" : "A Ruby gem that performs lightning-fast checkouts of git repos. Over 3000 downloads."
     },
     {
         "link" : "https://corner.squareup.com/2015/07/ios-build-infrastructure.html",
