@@ -58,21 +58,26 @@ about = [
 ]
 
 projects = [
+    {   "link" : "http://longboardcat.github.io/Flask-Portfolio/",
+        "icon_class" : "fa fa-bookmark icon-md icon-color-dark",
+        "name" : "Flask-Portfolio",
+        "description" : "Lightweight flask implementation to create templated portfolio websites, like this one."
+    },
     {
         "link" : "https://corner.squareup.com/2015/11/fastclone.html",
-        "icon_class" : "icon-github-alt icon-md icon-color-dark",
+        "icon_class" : "fa fa-github-alt icon-md icon-color-dark",
         "name" : "git-fastclone",
         "description" : "A Ruby gem that performs lightning-fast checkouts of git repos."
     },
     {
         "link" : "https://corner.squareup.com/2015/07/ios-build-infrastructure.html",
-        "icon_class" : "icon-apple icon-md icon-color-dark",
+        "icon_class" : "fa fa-apple icon-md icon-color-dark",
         "name" : "iOS build infrastructure",
         "description" : "Working on the in-house ios builder application at Square, Inc."
     },
     {
         "link" : "https://github.com/longboardcat/RoboTrike",
-        "icon_class" : "icon-power-off icon-md icon-color-dark",
+        "icon_class" : "fa fa-power-off icon-md icon-color-dark",
         "name" : "RoboTrike",
         "description" : "Robotics is challenging. Now try writing it all in assembly."
     },
