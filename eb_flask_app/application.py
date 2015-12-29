@@ -55,5 +55,5 @@ def resume():
 
 if __name__ == "__main__":
     # Uncomment this line if you wish to see debug messages and exceptions rendered in the browser.
-    application.debug = True
+    # application.debug = True
     application.run()
