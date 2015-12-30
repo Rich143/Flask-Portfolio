@@ -23,11 +23,12 @@ def construct_blog_posts(path):
     post_id_counter = 1
 
     for post in filenames:
-        split_filename = chomp_md(post).split('-')
+        name = chomp_md(post)
+        split_filename = post.split('-')
 
         post_info = {}
         post_info['date'] = '-'.join(split_filename[:3])
-        post_info['title'] = ' '.join(split_filename[3:])
+        post_info['title'] = name.replace(post_info['date'] + '-', '')
         post_info['id'] = construct_post_id(post_id_counter)
 
         with codecs.open(path + post, 'r', encoding='utf-8') as f:
