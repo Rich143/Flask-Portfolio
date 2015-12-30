@@ -26,30 +26,25 @@ about = [
     {
         "description" :
             """
-            Welcome to my website made with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
-            and <a target="_blank" href="http://flask.pocoo.org/">Flask</a>.
-            I'll be making more improvements as I learn Flask.
-            Flask is pretty amazing, but I'm still resorting to "non-pythonic"
-            and "non-flasky" ways of doing things.
+            Welcome to the personal website of James Chang! Hope you enjoy it :)
             """
     },
     {
         "description" :
             """
-            I'm currently working as a Software Engineer at <a target="_blank" href="https://squareup.com/">Square</a> on the release
-            team specializing in the iOS release process.
-            If you want to talk to me about how messy codesigning is, I'm your man.
-            I also do a little work on <a target="_blank" href="https://corner.squareup.com/2015/11/fastclone.html">git-fastclone</a>,
-            a tool that allows for significantly quicker repeating checkouts. We use fastclone in our iOS
-            release toolchain, and I'd appreciate any improvements, suggestions,
-            and pull requests.
+            Currently working as a Software Engineer at <a target="_blank" href="https://squareup.com/">Square</a> on the release
+            team specializing in the iOS release process. If you want to talk about how messy codesigning is, I'm your man.
+            Working open source projects is a way to pass time that is growing on me.
+            For example, <a target="_blank" href="https://corner.squareup.com/2015/11/fastclone.html">git-fastclone</a>,
+            a tool that allows for significantly quicker repeating checkouts, is something that's finally ready for the world.
+            Square uses fastclone in its iOS release toolchain, any improvements, suggestions, and pull requests are welcome.
             """
     },
     {
         "description" :
             """
             In my spare time, I like to play video games, watch movies, and hang out
-            with my friends. Check out my <a target="_blank" href="http://www.jameschang.io/blog.html">blog</a>
+            with friends. Check out my <a target="_blank" href="http://www.jameschang.io/blog.html">blog</a>
             to get more insight into my life,
             or check out my <a target="_blank" href="http://www.jameschang.io/resume.pdf">resume</a>
             if you want to chat.
