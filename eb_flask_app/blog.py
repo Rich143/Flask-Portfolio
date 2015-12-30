@@ -1,10 +1,13 @@
 import codecs
-from os import listdir
+import os
 
 
 # This function takes a directory, then constructs a dict with all of the relevant blog post info
 # for every single markdown file within that directory.
 def construct_blog_posts(path):
+    if not os.path.exists(path):
+        return []
+
     def chomp_md(title):
         return title.replace(".md", "")
 
@@ -12,7 +15,7 @@ def construct_blog_posts(path):
         return 'blog_post_' + str(counter)
 
     blog_posts = []
-    filenames = listdir(path)
+    filenames = os.listdir(path)
 
     if '.DS_Store' in filenames:
         filenames.remove('.DS_Store')
