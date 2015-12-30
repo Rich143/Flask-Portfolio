@@ -8,11 +8,16 @@ def construct_blog_posts(path):
     def chomp_md(title):
         return title.replace(".md", "")
 
+    def construct_post_id(counter):
+        return 'blog_post_' + str(counter)
+
     blog_posts = []
     filenames = listdir(path)
 
     if '.DS_Store' in filenames:
         filenames.remove('.DS_Store')
+
+    post_id_counter = 1
 
     for post in filenames:
         split_filename = chomp_md(post).split('-')
@@ -20,13 +25,15 @@ def construct_blog_posts(path):
         post_info = {}
         post_info['date'] = '-'.join(split_filename[:3])
         post_info['title'] = ' '.join(split_filename[3:])
+        post_info['id'] = construct_post_id(post_id_counter)
 
         with codecs.open(path + post, 'r', encoding='utf-8') as f:
             post_info['text'] = f.read()
 
         blog_posts.append(post_info)
+        post_id_counter += 1
 
-    return blog_posts
+    return reversed(sorted(blog_posts))
 
 if __name__ == '__main__':
-    print construct_blog_posts('static/assets/posts/')
+    print [(post['title'], post['id']) for post in construct_blog_posts('static/assets/posts/')]

@@ -8,11 +8,11 @@
         <div class="container">
             <div class="box first">
                 <h3>
-                    <a href="#" id="blog-title" onclick="toggle('blog-post-text')">
+                    <a href="#" id="blog-title" onclick="toggle('{{ post.id }}')">
                         <b>{{post.date}} - {{ post.title }}</b>
                     </a>
                 </h3>
-                <div id="blog-post-text" style="display:none">
+                <div id="{{ post.id }}" style="display:none">
                     <hr>
                         {{ post.text | markdown }}
                 </div>
