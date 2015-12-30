@@ -29,7 +29,7 @@ add two images.
 
 ### Blogging
 To blog, place markdown files in `static/assets/posts`. Their filenames should be formatted:
-`YYYY-MM-DD-Title-Goes-Here.md`. Feel free to change the logic in `blog.py`.
+`YYYY-MM-DD-Title.md`. Feel free to change the logic in `blog.py`.
 
 ### Deploying to Elastic Beanstalk
 Deploying in Elastic Beanstalk is a simple process you can learn more about [here][2]. I can't speak
