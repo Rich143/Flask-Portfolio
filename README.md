@@ -27,6 +27,10 @@ add two images.
 5. Comment out `application.debug = True` in `application.py`.
 6. Deploy to the platform of your choice. We are ready for Elastic Beanstalk.
 
+### Blogging
+To blog, place markdown files in `static/assets/posts`. Their filenames should be formatted:
+`YYYY-MM-DD-Title-Goes-Here.md`. Feel free to change the logic in `blog.py`.
+
 ### Deploying to Elastic Beanstalk
 Deploying in Elastic Beanstalk is a simple process you can learn more about [here][2]. I can't speak
 for other operating systems, but this repo has been tested on OSX.
