@@ -10,7 +10,9 @@ def construct_blog_posts(path):
 
     blog_posts = []
     filenames = listdir(path)
-    filenames.remove('.DS_Store')
+
+    if '.DS_Store' in filenames:
+        filenames.remove('.DS_Store')
 
     for post in filenames:
         split_filename = chomp_md(post).split('-')
