@@ -91,7 +91,7 @@ projects = [
                     prefix : '',
                     suffix : ''
                 };
-                var countingAnimation = new CountUp("countUpElement", 0, 4, 0, 4, options);
+                var countingAnimation = new CountUp("countUpElement", 0, 14, 0, 14, options);
                 countingAnimation.start();
             </script>
             ''',
