@@ -1,9 +1,9 @@
 # TODO: Fill in meta tags.
 meta = {
-    "title" : "",
-    "author" : "",
-    "description" : "",
-    "url" : "",
+    "title" : "Richard Matthews",
+    "author" : "Richard Matthews",
+    "description" : "Richard Matthew's Website",
+    "url" : "test.ca",
     "icon_path" : "",
     "keywords" : ""
 }
@@ -27,8 +27,8 @@ nav = [
 # TODO: Fill in one or multple description dicts.
 about = [
     {
-        "description" : ""
-    }
+        "description" : "Bob"
+    },
 ]
 
 # TODO: Fill in one or multiple project dicts. The code field executes any html/js you specify.
@@ -36,10 +36,17 @@ about = [
 #       For layout purposes, the code field is optional.
 projects = [
     {
-        "link" : "",
+        "link" : "https://github.com/Rich143/Brushed_Motor_Controller",
         "icon_class" : "",
-        "name" : "",
-        "description" : "",
+        "name" : "Brushed Motor Controller",
+        "description" : "PCB Design Files and code for a brushed motor controller.",
         "code" : ""
-    }
+    },
+    {
+        "link" : "https://github.com/Rich143/IMU",
+        "icon_class" : "",
+        "name" : "IMU",
+        "description" : "Code to read an IMU sensor consisting of an acceleremoter, magnetometer and gyroscope. Calculates the orientation of the sensor.",
+        "code" : ""
+    },
 ]

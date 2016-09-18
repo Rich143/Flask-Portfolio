@@ -40,4 +40,4 @@ def construct_blog_posts(path):
     return reversed(sorted(blog_posts))
 
 if __name__ == '__main__':
-    print [(post['title'], post['id']) for post in construct_blog_posts('static/assets/posts/')]
+    print([(post['title'], post['id']) for post in construct_blog_posts('static/assets/posts/')])
